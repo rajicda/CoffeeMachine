@@ -79,6 +79,7 @@ def check_resources(requested_coffee):
 
 
 def update_resources(coffee_type):
+    """Update resources to max: water: 300ml, milk: 200ml, coffee: 100g"""
     global water
     global milk
     global coffee
